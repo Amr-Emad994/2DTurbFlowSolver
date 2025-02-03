@@ -1,5 +1,3 @@
-(Due to technical issues, the search service is temporarily unavailable.)
-
 # CFD Turbulent Flow Solver
 
 ## Description
@@ -16,21 +14,10 @@ This repository contains a Python-based Computational Fluid Dynamics (CFD) solve
 - Python 3.x
 - NumPy
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/cfd-turbulent-flow-solver.git
-   cd cfd-turbulent-flow-solver
-   ```
-2. Install required dependencies:
-   ```bash
-   pip install numpy
-   ```
-
 ## Usage
 Run the simulation directly:
 ```bash
-python cfd_solver.py
+python flowSolver.py
 ```
 When prompted, enter:
 - Number of cells in x-direction (e.g., 50)
@@ -39,7 +26,7 @@ When prompted, enter:
 
 ### Example Usage
 ```bash
-$ python cfd_solver.py
+$ python flowSolver.py
 Enter number of cells in x-direction: 50
 Enter number of cells in y-direction: 20
 Enter number of outer iterations: 100
@@ -65,14 +52,7 @@ Enter number of outer iterations: 100
 2. Versteeg, H.K. & Malalasekera, W., "An Introduction to Computational Fluid Dynamics"
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Future Improvements
-- Implement input file configuration instead of interactive input
-- Add validation cases (e.g., channel flow, backward-facing step)
-- Include visualization scripts
-- Implement parallel computation for faster execution
-- Add additional turbulence models (k-omega, RSM)
+This project is licensed under the MIT License
 
 ## Disclaimer
-This code is provided as-is for educational purposes. Users are encouraged to validate results and adapt the code to their specific needs.
+**This code is provided as-is for educational purposes. Users are encouraged to validate results and adapt the code to their specific needs.**
